@@ -1,0 +1,34 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v26.3.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm exec prettier winmain.js --write
+7 verbose argv "exec" "--yes" "--" "prettier" "winmain.js" "--write"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T06_30_54_869Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T06_30_54_869Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 http fetch GET 200 https://registry.npmjs.org/prettier 899ms (cache miss)
+13 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+14 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+15 silly idealTree buildDeps
+16 silly fetch manifest prettier@3.9.10
+17 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/prettier 231ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/prettier set size:undefined disposed:false
+20 silly placeDep ROOT prettier@3.9.10 OK for:  want: 3.9.10
+21 silly reify moves {}
+22 silly audit bulk request { prettier: [ '3.9.10' ] }
+23 http cache prettier@https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz 0ms (cache hit)
+24 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 574ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz 3853ms (cache miss)
+28 verbose cwd /data/data/com.termux/files/home
+29 verbose os Linux 5.10.226-android12-9-00047-g4968e29b7f92-ab12786767
+30 verbose node v26.3.1
+31 verbose npm  v11.17.0
+32 verbose exit 0
+33 info ok
